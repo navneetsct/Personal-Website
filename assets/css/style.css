@@ -1,6 +1,6 @@
 
 body {
-  font-family:serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: #272829;
 }
 
@@ -159,7 +159,7 @@ h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: white;
+  background: #f2f3f5;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -186,7 +186,7 @@ h6 {
   .nav-menu a span,
   .nav-menu a:focus span {
     display: none;
-    color:white;
+    color: #fff;
   }
 }
 
@@ -194,7 +194,7 @@ h6 {
 .nav-menu .active,
 .nav-menu .active:focus,
 .nav-menu li:hover > a {
-  color: white;
+  color: #fff;
   background: #8f34eb;
 }
 
@@ -202,13 +202,13 @@ h6 {
 .nav-menu .active span,
 .nav-menu .active:focus span,
 .nav-menu li:hover > a span {
-  color: white;
+  color: #fff;
 }
 
 .nav-menu a:hover,
 .nav-menu li:hover > a {
   width: 100%;
-  color:white;
+  color: #fff;
 }
 
 .nav-menu a:hover span,
@@ -256,7 +256,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../../images/IMG-20230911-WA0003.webp") top right no-repeat;
+  background: url("../img/navneet-fornt.webp") top right no-repeat;
   background-size: cover;
   position: relative;
 
